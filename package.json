@@ -1,0 +1,34 @@
+{
+  "name": "fitbit-digital-lines",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.2",
+    "@fitbit/sdk-cli": "^1.6.3"
+  },
+  "fitbit": {
+    "appUUID": "e2f025bd-6847-4144-aaaf-83e00383f7db",
+    "appType": "clockface",
+    "appDisplayName": "Fitbit Digital Lines",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_location",
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "meson",
+      "gemini"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

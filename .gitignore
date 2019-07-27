@@ -1,0 +1,13 @@
+# gitignore file.
+
+# directories
+/.idea/
+/.vscode/
+/node_modules/
+/build/
+
+# files
+.DS_Store
+
+# file types
+*.iml

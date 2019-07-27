@@ -1,0 +1,49 @@
+<svg id="main">
+  <rect id="background" />
+  
+  <!-- Top section -->
+  <svg class="battery-container">
+    <text id="battery-measure" class="colour-secondary" />
+    <image id="charge-img" class="colour-secondary" width="32" height="32" x="$+2" y="$-70" href="images/stat_am_solid_48px.png"/>
+  </svg>
+
+   <!-- Bottom section -->
+  <image id="darkskyimage" class="colour-secondary" width="200" height="45" x="33%" y="1%" href="images/darksky-black-small-grey.png"/>
+  <rect class="colour-secondary" width="280" height="1" x="10" y="17%"/>
+  
+
+  
+
+  <!-- Main cascade -->
+  <text id="time" class="colour-deepOrange" pointer-events="visible" />
+  
+
+
+
+  <rect class="colour-secondary" width="280" height="1" x="10" y="52%"/>
+  
+
+
+
+  <text id="date" class="colour-deepOrange" pointer-events="visible" />
+
+  <image id="weather-icon" class="colour-deepOrange" width="52" height="52" x="56%" y="56%" href=""/>
+  <text id="weather" class="colour-deepOrange"/>
+
+
+
+
+  <rect class="colour-secondary" width="280" height="1" x="10" y="76%"/>
+  
+  <svg class="steps-container">
+    <text id="steps" class="colour-secondary" />
+    <image id="steps-img" class="colour-secondary" width="32" height="32" x="$+4" y="$-70" href="images/stat_steps_solid_48px.png"/>
+  </svg>
+  
+  <svg class="heart-container">
+    <text id="heart-rate" class="colour-secondary" />
+    <image id="heart-rate-img" class="colour-secondary" width="32" height="32" x="$+5" y="$-70" href="images/stat_hr_solid_48px.png"/>
+  </svg>
+
+
+</svg>

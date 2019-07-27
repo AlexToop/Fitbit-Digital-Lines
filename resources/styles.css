@@ -1,0 +1,86 @@
+#background {
+  width: 100%;
+  height: 100%;
+  fill: #000000;
+}
+
+
+.colour-background-duplicate {
+  fill: #2A363B;
+}
+
+.colour-deepOrange {
+  fill: #F64C11;
+}
+
+.colour-sky {
+  fill: #007BBF;
+}
+
+.colour-secondary {
+  fill: #FECEA8;
+}
+
+.colour-third {
+  fill: #00606D;
+}
+
+
+#battery-measure {
+  font-size: 33;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 14%;
+  y: 13%;
+}
+
+
+#steps {
+  font-size: 33;
+  font-family: Colfax-Regular;
+  text-length: 60;
+  text-anchor: middle;
+  x: 23%;
+  y: 92%;
+}
+
+
+#heart-rate {
+  font-size: 33;
+  font-family: Colfax-Regular;
+  text-length: 60;
+  text-anchor: middle;
+  x: 73%;
+  y: 92%;
+}
+
+
+#time {
+  font-size: 100;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 46%;
+}
+
+
+#date {
+  font-size: 33;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 25%;
+  y: 68%;
+
+}
+
+#weather {
+  font-size: 33;
+  font-family: Colfax-Regular;
+  text-length: 60;
+  text-anchor: middle;
+  x: 82%;
+  y: 68%;
+}
